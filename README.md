@@ -2,7 +2,7 @@
 
 [Code](https://github.com/yunqingjia/galaxy-cnn/tree/main/code)
 
-[Presentation Web Page](https://github.com/yunqingjia/galaxy-cnn/tree/main/galaxy-cnn-presentation) (Can [clone the repository](https://github.com/yunqingjia/galaxy-cnn.git), navigate to this folder, and run on a localhost server using `Python -m http.server`)
+[Presentation Web Page](https://github.com/yunqingjia/galaxy-cnn/tree/main/galaxy-cnn-presentation) (Can clone the repository, navigate to this folder, and run on a localhost server using `Python -m http.server`)
 
 [Report](https://github.com/yunqingjia/galaxy-cnn/blob/main/Galaxy_Morphology_Classification_Using_CNN.pdf)
 
