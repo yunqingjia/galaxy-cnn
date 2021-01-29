@@ -1,4 +1,4 @@
-# alaxy Morphology Classification Using Convolutional Neural Networks
+# Galaxy Morphology Classification Using Convolutional Neural Networks
 
 [Code](https://github.com/yunqingjia/galaxy-cnn/tree/main/galaxy-cnn/code/)
 
