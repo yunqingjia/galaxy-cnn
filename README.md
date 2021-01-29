@@ -1,8 +1,8 @@
 # Galaxy Morphology Classification Using Convolutional Neural Networks
 
-[Code](https://github.com/yunqingjia/galaxy-cnn/tree/main/galaxy-cnn/code/)
+[Code](https://github.com/yunqingjia/galaxy-cnn/tree/main/code)
 
-[Presentation Web Page](https://github.com/yunqingjia/galaxy-cnn/tree/main/galaxy-cnn/galaxy-cnn-presentation/) (Can be run on a localhost server using `Python -m http.server`)
+[Presentation Web Page](https://github.com/yunqingjia/galaxy-cnn/tree/main/galaxy-cnn-presentation) (Can be run on a localhost server using `Python -m http.server`)
 
 [Report](https://github.com/yunqingjia/galaxy-cnn/blob/main/Galaxy_Morphology_Classification_Using_CNN.pdf)
 
