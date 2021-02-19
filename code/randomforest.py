@@ -1,13 +1,13 @@
 
-from sklearn.ensemble import RandomForestClassifier
+from matplotlib import pyplot as plt
+from sklearn import metrics
 from sklearn.datasets import make_classification
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
 import numpy as np
+import seaborn as sns
 import sys
 import time
-from sklearn.model_selection import train_test_split
-from sklearn import metrics
-from matplotlib import pyplot as plt
-import seaborn as sns
 
 if __name__ == '__main__':
 
@@ -17,9 +17,8 @@ if __name__ == '__main__':
     randnum = 42
 
     print('getting data')
-    X_train = np.load('/Users/Karen_Loscocco/Documents/Galaxy-Morphologies-Classification.github.io/pca_reconstructed_100_100_2.npy')
-    y_train = np.load('/Users/Karen_Loscocco/Documents/Galaxy-Morphologies-Classification.github.io/y_train_full_size.npy')
-
+    X_train = np.load('C:\\Users\\yjia1\\projects\\pca_reconstructed_100_100_2.npy')
+    y_train = np.load('C:\\Users\\yjia1\\projects\\y_train_full_size.npy')
 
     y_sortedidx = np.argsort(y_train[:,0])
     y_train = y_train[y_sortedidx, 1:3]
@@ -47,7 +46,6 @@ if __name__ == '__main__':
     cm = metrics.confusion_matrix(y_test, ypredict)
 
     #print(predictions[:20])
-
     #classes=classes, label_encoder={0: "unoccupied", 1: "occupied"}
 
     plt.figure(figsize=(9,9))

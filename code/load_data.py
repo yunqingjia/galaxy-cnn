@@ -74,7 +74,7 @@ class load_data():
 if __name__ == '__main__':
 
     # define input arguments
-    directory = 'C:\\Users\\yjia1\\codes\\galaxy-zoo-the-galaxy-challenge'
+    directory = 'C:\\Users\\yjia1\\projects\\galaxy-zoo-the-galaxy-challenge'
     size = 424
     trim = 100
     testsize = 0.33
