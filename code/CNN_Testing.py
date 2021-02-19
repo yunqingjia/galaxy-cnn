@@ -12,10 +12,10 @@ if __name__ == '__main__':
 
     start = time.time()
 
-    model = tf.keras.models.load_model('/Users/Karen_Loscocco/Documents/Galaxy-Morphologies-Classification.github.io/model_0717_2120.h5')
+    model = tf.keras.models.load_model('C:\\Users\\yjia1\\projects\\model_0717_2120.h5')
 
-    X_test = np.load('/Users/Karen_Loscocco/Documents/Galaxy-Morphologies-Classification.github.io/X_test_pca.npy')
-    y_test = np.load('/Users/Karen_Loscocco/Documents/Galaxy-Morphologies-Classification.github.io/y_test_pca.npy')
+    X_test = np.load('C:\\Users\\yjia1\\projects\\X_test_pca.npy')
+    y_test = np.load('C:\\Users\\yjia1\\projects\\y_test_pca.npy')
 
     y_predict = model.predict(X_test)
 

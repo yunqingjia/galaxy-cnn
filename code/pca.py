@@ -13,8 +13,8 @@ import time
 
 start = time.time()
 
-X_train = np.load('/Users/Karen_Loscocco/Documents/Galaxy-Morphologies-Classification.github.io/X_train_100_100.npy')
-y_train = np.load('/Users/Karen_Loscocco/Documents/Galaxy-Morphologies-Classification.github.io/y_train_full_size.npy')
+X_train = np.load('C:\\Users\\yjia1\\projects\\X_train_100_100.npy')
+y_train = np.load('C:\\Users\\yjia1\\projects\\y_train_full_size.npy')
 
 print('X_train shape: {}'.format(X_train.shape[0]))
 

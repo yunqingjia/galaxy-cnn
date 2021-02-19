@@ -26,8 +26,8 @@ if __name__ == '__main__':
     randnum = 42
 
     print('getting data')
-    X_train = np.load('/Users/Karen_Loscocco/Documents/Galaxy-Morphologies-Classification.github.io/pca_reconstructed_100_100_2.npy')
-    y_train = np.load('/Users/Karen_Loscocco/Documents/Galaxy-Morphologies-Classification.github.io/y_train_full_size.npy')
+    X_train = np.load('C:\\Users\\yjia1\\projects\\pca_reconstructed_100_100_2.npy')
+    y_train = np.load('C:\\Users\\yjia1\\projects\\y_train_full_size.npy')
 
     #y_train = np.load('/Users/Karen_Loscocco/Desktop/galaxy-zoo-the-galaxy-challenge/Data_NPY/y_train.npy')
 
